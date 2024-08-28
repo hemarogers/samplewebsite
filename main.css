@@ -1,0 +1,26 @@
+h3{color:rgb(97, 97, 183); margin:10px;}
+#banner{ 
+    height: 30vh;
+    max-width: 100%; 
+    background-image: url("banner.jpg");
+    }
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #2196F3;
+    padding: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    padding: 20px 0;
+    
+  }
+.nav>ul{margin:1px;}
+.nav > ul > li{  padding:10px; display:inline;background-color: #2196F3;  }
+
+a:link{color:rgb(193, 190, 19);}
+a:visited{color:blueviolet;}
+a:hover{color:aqua;}
+a:active{color:brown;}
